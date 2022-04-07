@@ -120,20 +120,24 @@ namespace GlampingITM.Controllers
                     _context.Update(category);
                     await _context.SaveChangesAsync();
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (DbUpdateException dbUpdateException)
                 {
-                    if (!CategoryExists(category.Id))
+                    if (dbUpdateException.InnerException.Message.Contains("duplicate"))
                     {
-                        return NotFound();
+                        ModelState.AddModelError(string.Empty, "Ya existe un país con el mismo nombre.");
                     }
                     else
                     {
-                        throw;
+                        ModelState.AddModelError(string.Empty, dbUpdateException.InnerException.Message);
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                catch (Exception exception)
+                {
+                    ModelState.AddModelError(string.Empty, exception.Message);
+                }
             }
             return View(category);
+            ;
         }
 
         // GET: Categories/Delete/5
@@ -163,11 +167,6 @@ namespace GlampingITM.Controllers
             _context.Categories.Remove(category);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
-        }
-
-        private bool CategoryExists(int id)
-        {
-            return _context.Categories.Any(e => e.Id == id);
-        }
+        }               
     }
 }
