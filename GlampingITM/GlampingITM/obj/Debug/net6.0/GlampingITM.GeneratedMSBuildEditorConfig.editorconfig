@@ -15,12 +15,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Account/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Account/ChangeUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Account/NotAuthorized.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxOb3RBdXRob3JpemVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Categories/Create.cshtml]
@@ -51,6 +63,82 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xfQ2F0ZWdvcnlEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/AddCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXEFkZENpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/AddState.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXEFkZFN0YXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/DeleteCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXERlbGV0ZUNpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/DeleteState.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXERlbGV0ZVN0YXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/DetailsCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXERldGFpbHNDaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/DetailsState.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXERldGFpbHNTdGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/EditCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXEVkaXRDaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/EditState.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXEVkaXRTdGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/_City.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXF9DaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/_CityDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXF9DaXR5RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/_Country.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXF9Db3VudHJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/_CountryDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXF9Db3VudHJ5RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/_State.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXF9TdGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/_StateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyaWVzXF9TdGF0ZURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Home/Error404.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvcjQwNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -67,8 +155,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Shared/_User.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/_ViewImports.cshtml]

@@ -20,8 +20,76 @@ namespace GlampingITM.Data
             await _context.Database.EnsureCreatedAsync();
             await CheckCategoriesAsync();
             await CheckRolesAsync();
+            await CheckCountriesAsync();
             await CheckUserAsync("1010", "Esteban", "Castaño", "esteban@yopmail.com", "301 285 96 82", "Calle Azul Carrera Miel", UserType.Admin);
             await CheckUserAsync("2010", "Cristian", "Zapata", "cristian@yopmail.com", "312 234 56 34", "Calle Azul Carrera Miel", UserType.User);
+        }
+
+        private async Task CheckCountriesAsync()
+        {
+            if (!_context.Countries.Any())
+            {
+                _context.Countries.Add(new Country
+                {
+                    Name = "Colombia",
+                    States = new List<State>()
+                    {
+                        new State()
+                        {
+                            Name = "Antioquia",
+                            Cities = new List<City>() {
+                                new City() { Name = "Medellín" },
+                                new City() { Name = "Itagüí" },
+                                new City() { Name = "Envigado" },
+                                new City() { Name = "Bello" },
+                                new City() { Name = "Rionegro" },
+                            }
+                        },
+                        new State()
+                        {
+                            Name = "Bogotá",
+                            Cities = new List<City>() {
+                                new City() { Name = "Usaquen" },
+                                new City() { Name = "Champinero" },
+                                new City() { Name = "Santa fe" },
+                                new City() { Name = "Useme" },
+                                new City() { Name = "Bosa" },
+                            }
+                        },
+                    }
+                });
+                _context.Countries.Add(new Country
+                {
+                    Name = "Estados Unidos",
+                    States = new List<State>()
+                    {
+                        new State()
+                        {
+                            Name = "Florida",
+                            Cities = new List<City>() {
+                                new City() { Name = "Orlando" },
+                                new City() { Name = "Miami" },
+                                new City() { Name = "Tampa" },
+                                new City() { Name = "Fort Lauderdale" },
+                                new City() { Name = "Key West" },
+                            }
+                        },
+                        new State()
+                        {
+                            Name = "Texas",
+                            Cities = new List<City>() {
+                                new City() { Name = "Houston" },
+                                new City() { Name = "San Antonio" },
+                                new City() { Name = "Dallas" },
+                                new City() { Name = "Austin" },
+                                new City() { Name = "El Paso" },
+                            }
+                        },
+                    }
+                });
+            }
+
+            await _context.SaveChangesAsync();
         }
 
         private async Task<User> CheckUserAsync(
@@ -44,9 +112,8 @@ namespace GlampingITM.Data
                     UserName = email,
                     PhoneNumber = phone,
                     Address = address,
-                    Document = document,
-                    //TODO: Pending Add City Entity
-                    //City = _context.Cities.FirstOrDefault(),
+                    Document = document,                    
+                    City = _context.Cities.FirstOrDefault(),
                     UserType = userType,
                 };
 

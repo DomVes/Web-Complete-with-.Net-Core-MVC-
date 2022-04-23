@@ -21,9 +21,9 @@ namespace GlampingITM.Data.Entities
         [Required(ErrorMessage = "El campo {0} es obligatorio.")]
         public string LastName { get; set; }
 
-        //TODO: Pending create Cities
-        /*[Display(Name = "Ciudad")]
-        public City City { get; set; }*/
+        
+        [Display(Name = "Ciudad")]
+        public City City { get; set; }
 
         [Display(Name = "Dirección")]
         [MaxLength(200, ErrorMessage = "El campo {0} debe tener máximo {1} caractéres.")]
@@ -32,14 +32,13 @@ namespace GlampingITM.Data.Entities
 
         [Display(Name = "Foto")]
         public Guid ImageId { get; set; }
-
-        //TODO: Pendind to put the correct paths
+       
 
         [Display(Name = "Foto")]
         public string ImageFullPath => ImageId == Guid.Empty
             ? $"https://localhost:7057/images/noimage.png"
-            : $"https://shoppingzulu.blob.core.windows.net/users/{ImageId}";
-
+            : $"https://glampingitm.blob.core.windows.net/users/{ImageId}";
+        
         [Display(Name = "Tipo de usuario")]
         public UserType UserType { get; set; }
 

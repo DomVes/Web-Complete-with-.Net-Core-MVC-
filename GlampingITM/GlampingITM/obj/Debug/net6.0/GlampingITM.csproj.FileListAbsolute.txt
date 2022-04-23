@@ -1117,3 +1117,11 @@ D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\Glam
 D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\Microsoft.WindowsAzure.Storage.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\System.Web.Mvc.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\System.Web.Razor.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\System.Web.Helpers.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\System.Web.WebPages.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll

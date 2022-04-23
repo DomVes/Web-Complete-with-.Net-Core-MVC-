@@ -1,42 +1,25 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using GlampingITM.Data;
 using GlampingITM.Data.Entities;
-using Microsoft.AspNetCore.Authorization;
+
 
 namespace GlampingITM.Controllers
 {
     //[Authorize(Roles = "Admin")]
     public class CategoriesController : Controller
     {
-        
         private readonly DataContext _context;
 
         public CategoriesController(DataContext context)
         {
             _context = context;
         }
+
         public async Task<IActionResult> Index()
         {
             return View(await _context.Categories.ToListAsync());
-        }
-
-
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (category == null)
-            {
-                return NotFound();
-            }
-
-            return View(category);
         }
 
         public IActionResult Create()
@@ -50,18 +33,17 @@ namespace GlampingITM.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(category);
                 try
                 {
+                    _context.Add(category);
                     await _context.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
-
                 }
                 catch (DbUpdateException dbUpdateException)
                 {
                     if (dbUpdateException.InnerException.Message.Contains("duplicate"))
                     {
-                        ModelState.AddModelError(string.Empty, "Ya existe un país con el mismo nombre.");
+                        ModelState.AddModelError(string.Empty, "Ya existe una categoría con el mismo nombre.");
                     }
                     else
                     {
@@ -73,9 +55,9 @@ namespace GlampingITM.Controllers
                     ModelState.AddModelError(string.Empty, exception.Message);
                 }
             }
+
             return View(category);
         }
-
 
         public async Task<IActionResult> Edit(int? id)
         {
@@ -89,6 +71,7 @@ namespace GlampingITM.Controllers
             {
                 return NotFound();
             }
+
             return View(category);
         }
 
@@ -107,12 +90,13 @@ namespace GlampingITM.Controllers
                 {
                     _context.Update(category);
                     await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateException dbUpdateException)
                 {
                     if (dbUpdateException.InnerException.Message.Contains("duplicate"))
                     {
-                        ModelState.AddModelError(string.Empty, "Ya existe un país con el mismo nombre.");
+                        ModelState.AddModelError(string.Empty, "Ya existe una categoría con el mismo nombre.");
                     }
                     else
                     {
@@ -124,8 +108,24 @@ namespace GlampingITM.Controllers
                     ModelState.AddModelError(string.Empty, exception.Message);
                 }
             }
+
             return View(category);
-            ;
+        }
+
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            Category category = await _context.Categories.FindAsync(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+
+            return View(category);
         }
 
         public async Task<IActionResult> Delete(int? id)
@@ -135,8 +135,7 @@ namespace GlampingITM.Controllers
                 return NotFound();
             }
 
-            Category category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.Id == id);
+            Category category = await _context.Categories.FindAsync(id);
             if (category == null)
             {
                 return NotFound();
@@ -153,6 +152,6 @@ namespace GlampingITM.Controllers
             _context.Categories.Remove(category);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
-        }               
+        }
     }
 }

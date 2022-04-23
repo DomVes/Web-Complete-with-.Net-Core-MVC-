@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "84GPHNG3hBrS0Nkkh5NnP6SRXUEeASei+MTd8Kg8i5E=",
+  "Hash": "Yka7WNfggBWQzG9LTT0rJKznmsF0HHLSqCdBa6BNnF8=",
   "Source": "GlampingITM",
   "BasePath": "_content/GlampingITM",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\forbiden.png",
-      "SourceId": "GlampingITM",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
-      "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/forbiden.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\forbiden.png"
     },
     {
       "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\noimage.png",
