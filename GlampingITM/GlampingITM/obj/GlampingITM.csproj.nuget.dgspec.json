@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DOCUMENTOS\\Universidad\\2022-1\\Progranacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\GlampingITM.csproj": {}
+    "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\GlampingITM.csproj": {}
   },
   "projects": {
-    "D:\\DOCUMENTOS\\Universidad\\2022-1\\Progranacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\GlampingITM.csproj": {
+    "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\GlampingITM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DOCUMENTOS\\Universidad\\2022-1\\Progranacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\GlampingITM.csproj",
+        "projectUniqueName": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\GlampingITM.csproj",
         "projectName": "GlampingITM",
-        "projectPath": "D:\\DOCUMENTOS\\Universidad\\2022-1\\Progranacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\GlampingITM.csproj",
+        "projectPath": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\GlampingITM.csproj",
         "packagesPath": "C:\\Users\\ESTEBAN\\.nuget\\packages\\",
-        "outputPath": "D:\\DOCUMENTOS\\Universidad\\2022-1\\Progranacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\obj\\",
+        "outputPath": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,27 +44,35 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.4, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[6.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             }
           },
           "imports": [
@@ -85,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

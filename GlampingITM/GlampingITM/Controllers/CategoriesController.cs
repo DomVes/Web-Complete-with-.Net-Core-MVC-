@@ -1,32 +1,26 @@
-﻿#nullable disable
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using GlampingITM.Data;
 using GlampingITM.Data.Entities;
+using Microsoft.AspNetCore.Authorization;
 
 namespace GlampingITM.Controllers
 {
+    //[Authorize(Roles = "Admin")]
     public class CategoriesController : Controller
     {
+        
         private readonly DataContext _context;
 
         public CategoriesController(DataContext context)
         {
             _context = context;
         }
-
-        // GET: Categories        
         public async Task<IActionResult> Index()
         {
             return View(await _context.Categories.ToListAsync());
         }
 
-        // GET: Categories/Details/5
 
         public async Task<IActionResult> Details(int? id)
         {
@@ -45,15 +39,11 @@ namespace GlampingITM.Controllers
             return View(category);
         }
 
-        // GET: Categories/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Categories/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Category category)
@@ -87,7 +77,6 @@ namespace GlampingITM.Controllers
         }
 
 
-        // GET: Categories/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -103,7 +92,6 @@ namespace GlampingITM.Controllers
             return View(category);
         }
 
-        // POST: Categories/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, Category category)
@@ -140,7 +128,6 @@ namespace GlampingITM.Controllers
             ;
         }
 
-        // GET: Categories/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -158,7 +145,6 @@ namespace GlampingITM.Controllers
             return View(category);
         }
 
-        // POST: Categories/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

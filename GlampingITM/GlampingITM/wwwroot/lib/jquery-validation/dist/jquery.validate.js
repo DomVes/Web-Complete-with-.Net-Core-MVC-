@@ -1460,7 +1460,7 @@ $.extend( $.validator, {
 						return 0;
 					}
 
-					// Number of digits right of decimal point.
+					
 					return match[ 1 ] ? match[ 1 ].length : 0;
 				},
 				toInt = function( num ) {
@@ -1469,8 +1469,7 @@ $.extend( $.validator, {
 				valid = true,
 				decimals;
 
-			// Works only for text, number and range input types
-			// TODO find a way to support input types date, datetime, datetime-local, month, time and week
+			
 			if ( notSupported ) {
 				throw new Error( errorMessage );
 			}
