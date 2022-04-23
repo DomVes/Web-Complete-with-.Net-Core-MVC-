@@ -16,6 +16,7 @@ builder.Services.AddDbContext<DataContext>(o =>
 
 builder.Services.AddTransient<SeedDb>();
 builder.Services.AddScoped<IUserHelper, UserHelper>();
+builder.Services.AddScoped<ICombosHelper, CombosHelper>();
 //builder.Services.AddSingleton<SeedDb>();
 //builder.Services.AddScoped<SeedDb>();
 
