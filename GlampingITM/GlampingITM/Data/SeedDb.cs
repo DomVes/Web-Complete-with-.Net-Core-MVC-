@@ -22,7 +22,7 @@ namespace GlampingITM.Data
             await CheckRolesAsync();
             await CheckCountriesAsync();
             await CheckUserAsync("1036784623", "Juan Esteban", "Castaño Castaño", "juan_esteban@yopmail.com", "301 285 96 82", "Carrera 92a calle 78b-141", UserType.Admin);
-            await CheckUserAsync("1017436842", "Cristian", "Zapata", "cristian_zapata@yopmail.com", "312 234 56 34", "Calle 74 #92-43", UserType.User);
+            await CheckUserAsync("1017436842", "Cristian", "Zapata", "cristian_zapata@yopmail.com", "301 263 65 51", "Calle 74 #92-43", UserType.User);
         }
 
         private async Task CheckCountriesAsync()
@@ -56,18 +56,7 @@ namespace GlampingITM.Data
                                 new City() { Name = "San ta fé de Antioquia" },
                                 
                             }
-                        },
-                        new State()
-                        {
-                            Name = "Bogotá",
-                            Cities = new List<City>() {
-                                new City() { Name = "Usaquen" },
-                                new City() { Name = "Champinero" },
-                                new City() { Name = "Santa fe" },
-                                new City() { Name = "Useme" },
-                                new City() { Name = "Bosa" },
-                            }
-                        },
+                        },                        
                     }
                 });               
                 
@@ -103,6 +92,10 @@ namespace GlampingITM.Data
 
                 await _userHelper.AddUserAsync(user, "adm123");
                 await _userHelper.AddUserToRoleAsync(user, userType.ToString());
+
+                string token = await _userHelper.GenerateEmailConfirmationTokenAsync(user);
+                await _userHelper.ConfirmEmailAsync(user, token);
+
             }
 
             return user;

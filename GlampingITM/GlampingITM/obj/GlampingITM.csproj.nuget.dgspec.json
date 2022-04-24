@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[12.11.0, )"
             },
+            "Mailkit": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
             "Microsoft.AspNet.Mvc": {
               "target": "Package",
               "version": "[5.2.8, )"
@@ -80,7 +84,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.3.1, )"
+              "version": "[6.3.0, )"
             },
             "WindowsAzure.Storage": {
               "target": "Package",
