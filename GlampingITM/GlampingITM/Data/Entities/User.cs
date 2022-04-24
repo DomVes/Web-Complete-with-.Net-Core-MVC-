@@ -36,7 +36,7 @@ namespace GlampingITM.Data.Entities
 
         [Display(Name = "Foto")]
         public string ImageFullPath => ImageId == Guid.Empty
-            ? $"https://localhost:7057/images/noimage.png"
+            ? $"https://localhost:7067/images/noimage.png"
             : $"https://glampingitm.blob.core.windows.net/users/{ImageId}";
         
         [Display(Name = "Tipo de usuario")]
