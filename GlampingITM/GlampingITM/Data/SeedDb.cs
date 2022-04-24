@@ -21,8 +21,8 @@ namespace GlampingITM.Data
             await CheckCategoriesAsync();
             await CheckRolesAsync();
             await CheckCountriesAsync();
-            await CheckUserAsync("1010", "Esteban", "Castaño", "esteban@yopmail.com", "301 285 96 82", "Calle Azul Carrera Miel", UserType.Admin);
-            await CheckUserAsync("2010", "Cristian", "Zapata", "cristian@yopmail.com", "312 234 56 34", "Calle Azul Carrera Miel", UserType.User);
+            await CheckUserAsync("1036784623", "Juan Esteban", "Castaño Castaño", "juan_esteban@yopmail.com", "301 285 96 82", "Carrera 92a calle 78b-141", UserType.Admin);
+            await CheckUserAsync("1017436842", "Cristian", "Zapata", "cristian_zapata@yopmail.com", "312 234 56 34", "Calle 74 #92-43", UserType.User);
         }
 
         private async Task CheckCountriesAsync()
@@ -42,7 +42,19 @@ namespace GlampingITM.Data
                                 new City() { Name = "Itagüí" },
                                 new City() { Name = "Envigado" },
                                 new City() { Name = "Bello" },
-                                new City() { Name = "Rionegro" },
+                                new City() { Name = "Barbosa" },
+                                new City() { Name = "Santa Elena" },
+                                new City() { Name = "La Ceja" },
+                                new City() { Name = "La Unión" },
+                                new City() { Name = "Girardota" },
+                                new City() { Name = "La Estrella" },
+                                new City() { Name = "Caldas" },
+                                new City() { Name = "Sabaneta" },
+                                new City() { Name = "Copacabana" },
+                                new City() { Name = "San Cristóbal" },
+                                new City() { Name = "Palmitas" },
+                                new City() { Name = "San ta fé de Antioquia" },
+                                
                             }
                         },
                         new State()
@@ -57,36 +69,8 @@ namespace GlampingITM.Data
                             }
                         },
                     }
-                });
-                _context.Countries.Add(new Country
-                {
-                    Name = "Estados Unidos",
-                    States = new List<State>()
-                    {
-                        new State()
-                        {
-                            Name = "Florida",
-                            Cities = new List<City>() {
-                                new City() { Name = "Orlando" },
-                                new City() { Name = "Miami" },
-                                new City() { Name = "Tampa" },
-                                new City() { Name = "Fort Lauderdale" },
-                                new City() { Name = "Key West" },
-                            }
-                        },
-                        new State()
-                        {
-                            Name = "Texas",
-                            Cities = new List<City>() {
-                                new City() { Name = "Houston" },
-                                new City() { Name = "San Antonio" },
-                                new City() { Name = "Dallas" },
-                                new City() { Name = "Austin" },
-                                new City() { Name = "El Paso" },
-                            }
-                        },
-                    }
-                });
+                });               
+                
             }
 
             await _context.SaveChangesAsync();

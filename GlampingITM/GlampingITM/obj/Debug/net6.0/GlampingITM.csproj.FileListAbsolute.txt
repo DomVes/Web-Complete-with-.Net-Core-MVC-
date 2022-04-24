@@ -1125,3 +1125,8 @@ D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\Glam
 D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
 D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\System.Web.WebPages.dll
 D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\Azure.Core.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\Azure.Storage.Common.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\System.IO.Hashing.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\System.Memory.Data.dll
