@@ -1133,3 +1133,4 @@ D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\Glam
 D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\MailKit.dll
 D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\MimeKit.dll
 D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\libman.json
