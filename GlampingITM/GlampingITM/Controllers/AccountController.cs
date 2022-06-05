@@ -357,5 +357,7 @@ namespace GlampingITM.Controllers
 
             return View(model);
         }
+
+
     }
 }

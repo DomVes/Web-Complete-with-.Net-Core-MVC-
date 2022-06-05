@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "to7UsVYV9zNoB2ywH4hSGjzq/qOpOh8/qBtvydzwoss=",
+  "Hash": "4dLt2BEc6kWbQuyguMXuF/S4U5/3t1nfHN7F8QJ4K9I=",
   "Source": "GlampingITM",
   "BasePath": "_content/GlampingITM",
   "Mode": "Default",
@@ -119,12 +119,12 @@
       "OriginalItemSpec": "wwwroot\\images\\notfound.png"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A1.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A11.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/A1.1.jpg",
+      "RelativePath": "images/products/A11.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\A1.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\A11.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A1.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A12.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/A1.2.jpg",
+      "RelativePath": "images/products/A12.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\A1.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\A12.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A1.3.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A13.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/A1.3.jpg",
+      "RelativePath": "images/products/A13.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,15 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\A1.3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\A13.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A1.4.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A14.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/A1.4.jpg",
+      "RelativePath": "images/products/A14.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,15 +184,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\A1.4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\A14.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A1.5.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A15.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/A1.5.jpg",
+      "RelativePath": "images/products/A15.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,15 +201,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\A1.5.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\A15.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A2.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A21.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/A2.1.jpg",
+      "RelativePath": "images/products/A21.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,15 +218,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\A2.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\A21.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A2.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A22.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/A2.2.jpg",
+      "RelativePath": "images/products/A22.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -235,15 +235,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\A2.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\A22.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A2.3.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A23.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/A2.3.jpg",
+      "RelativePath": "images/products/A23.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,15 +252,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\A2.3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\A23.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A2.4.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A24.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/A2.4.jpg",
+      "RelativePath": "images/products/A24.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,15 +269,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\A2.4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\A24.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A2.5.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\A25.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/A2.5.jpg",
+      "RelativePath": "images/products/A25.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,15 +286,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\A2.5.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\A25.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\B1.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\B11.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/B1.1.jpg",
+      "RelativePath": "images/products/B11.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,15 +303,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\B1.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\B11.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\B1.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\B12.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/B1.2.jpg",
+      "RelativePath": "images/products/B12.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -320,15 +320,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\B1.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\B12.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\B2.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\B21.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/B2.1.jpg",
+      "RelativePath": "images/products/B21.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\B2.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\B21.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\B2.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\B22.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/B2.2.jpg",
+      "RelativePath": "images/products/B22.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -354,15 +354,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\B2.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\B22.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\B2.3.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\B23.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/B2.3.jpg",
+      "RelativePath": "images/products/B23.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -371,15 +371,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\B2.3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\B23.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\B2.4.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\B24.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/B2.4.jpg",
+      "RelativePath": "images/products/B24.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -388,15 +388,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\B2.4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\B24.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\B3.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\B31.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/B3.1.jpg",
+      "RelativePath": "images/products/B31.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -405,15 +405,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\B3.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\B31.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C1.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C11.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/C1.1.jpg",
+      "RelativePath": "images/products/C11.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -422,15 +422,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\C1.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\C11.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C1.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C12.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/C1.2.jpg",
+      "RelativePath": "images/products/C12.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -439,15 +439,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\C1.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\C12.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C1.3.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C13.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/C1.3.jpg",
+      "RelativePath": "images/products/C13.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -456,15 +456,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\C1.3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\C13.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C1.4.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C14.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/C1.4.jpg",
+      "RelativePath": "images/products/C14.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -473,15 +473,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\C1.4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\C14.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C2.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C21.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/C2.1.jpg",
+      "RelativePath": "images/products/C21.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -490,15 +490,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\C2.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\C21.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C2.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C22.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/C2.2.jpg",
+      "RelativePath": "images/products/C22.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -507,15 +507,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\C2.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\C22.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C2.3.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C23.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/C2.3.jpg",
+      "RelativePath": "images/products/C23.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -524,15 +524,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\C2.3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\C23.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C3.1.png",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C31.png",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/C3.1.png",
+      "RelativePath": "images/products/C31.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -541,15 +541,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\C3.1.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\C31.png"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C3.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C32.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/C3.2.jpg",
+      "RelativePath": "images/products/C32.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -558,15 +558,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\C3.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\C32.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C3.3.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\C33.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/C3.3.jpg",
+      "RelativePath": "images/products/C33.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -575,15 +575,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\C3.3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\C33.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\CON1.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\CON11.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/CON1.1.jpg",
+      "RelativePath": "images/products/CON11.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -592,15 +592,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\CON1.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\CON11.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\CON1.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\CON12.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/CON1.2.jpg",
+      "RelativePath": "images/products/CON12.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -609,15 +609,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\CON1.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\CON12.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\CON1.3.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\CON13.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/CON1.3.jpg",
+      "RelativePath": "images/products/CON13.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -626,15 +626,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\CON1.3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\CON13.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO1.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO11.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/DOMO1.1.jpg",
+      "RelativePath": "images/products/DOMO11.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -643,15 +643,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO1.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO11.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO1.2.jpeg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO12.jpeg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/DOMO1.2.jpeg",
+      "RelativePath": "images/products/DOMO12.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -660,15 +660,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO1.2.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO12.jpeg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO2.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO21.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/DOMO2.1.jpg",
+      "RelativePath": "images/products/DOMO21.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -677,15 +677,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO2.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO21.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO2.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO22.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/DOMO2.2.jpg",
+      "RelativePath": "images/products/DOMO22.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -694,15 +694,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO2.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO22.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO2.3.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO23.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/DOMO2.3.jpg",
+      "RelativePath": "images/products/DOMO23.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -711,15 +711,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO2.3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO23.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO2.4.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO24.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/DOMO2.4.jpg",
+      "RelativePath": "images/products/DOMO24.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -728,15 +728,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO2.4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO24.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO2.5.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO25.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/DOMO2.5.jpg",
+      "RelativePath": "images/products/DOMO25.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -745,15 +745,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO2.5.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO25.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO2.6.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO26.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/DOMO2.6.jpg",
+      "RelativePath": "images/products/DOMO26.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -762,15 +762,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO2.6.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO26.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO3.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO31.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/DOMO3.1.jpg",
+      "RelativePath": "images/products/DOMO31.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -779,15 +779,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO3.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO31.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO3.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO32.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/DOMO3.2.jpg",
+      "RelativePath": "images/products/DOMO32.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -796,15 +796,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO3.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO32.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO3.3.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO33.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/DOMO3.3.jpg",
+      "RelativePath": "images/products/DOMO33.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -813,15 +813,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO3.3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO33.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO3.4.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO34.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/DOMO3.4.jpg",
+      "RelativePath": "images/products/DOMO34.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -830,15 +830,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO3.4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO34.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO3.5.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO35.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/DOMO3.5.jpg",
+      "RelativePath": "images/products/DOMO35.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -847,15 +847,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO3.5.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO35.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO4.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO41.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/DOMO4.1.jpg",
+      "RelativePath": "images/products/DOMO41.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -864,15 +864,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO4.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO41.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO4.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\DOMO42.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/DOMO4.2.jpg",
+      "RelativePath": "images/products/DOMO42.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -881,15 +881,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO4.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\DOMO42.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE1.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE11.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/ELE1.1.jpg",
+      "RelativePath": "images/products/ELE11.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -898,15 +898,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\ELE1.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\ELE11.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE1.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE12.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/ELE1.2.jpg",
+      "RelativePath": "images/products/ELE12.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -915,15 +915,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\ELE1.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\ELE12.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE1.3.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE13.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/ELE1.3.jpg",
+      "RelativePath": "images/products/ELE13.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -932,15 +932,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\ELE1.3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\ELE13.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE1.4.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE14.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/ELE1.4.jpg",
+      "RelativePath": "images/products/ELE14.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -949,15 +949,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\ELE1.4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\ELE14.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE1.5.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE15.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/ELE1.5.jpg",
+      "RelativePath": "images/products/ELE15.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -966,15 +966,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\ELE1.5.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\ELE15.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE2.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE21.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/ELE2.1.jpg",
+      "RelativePath": "images/products/ELE21.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -983,15 +983,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\ELE2.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\ELE21.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE2.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE22.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/ELE2.2.jpg",
+      "RelativePath": "images/products/ELE22.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1000,15 +1000,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\ELE2.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\ELE22.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE2.3.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\ELE23.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/ELE2.3.jpg",
+      "RelativePath": "images/products/ELE23.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1017,15 +1017,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\ELE2.3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\ELE23.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG1.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG11.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/LAG1.1.jpg",
+      "RelativePath": "images/products/LAG11.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1034,15 +1034,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\LAG1.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\LAG11.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG1.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG12.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/LAG1.2.jpg",
+      "RelativePath": "images/products/LAG12.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1051,15 +1051,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\LAG1.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\LAG12.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG1.3.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG13.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/LAG1.3.jpg",
+      "RelativePath": "images/products/LAG13.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1068,15 +1068,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\LAG1.3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\LAG13.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG1.4.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG14.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/LAG1.4.jpg",
+      "RelativePath": "images/products/LAG14.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1085,15 +1085,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\LAG1.4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\LAG14.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG2.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG21.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/LAG2.1.jpg",
+      "RelativePath": "images/products/LAG21.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1102,15 +1102,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\LAG2.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\LAG21.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG2.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG22.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/LAG2.2.jpg",
+      "RelativePath": "images/products/LAG22.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1119,15 +1119,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\LAG2.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\LAG22.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG3.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG31.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/LAG3.1.jpg",
+      "RelativePath": "images/products/LAG31.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1136,15 +1136,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\LAG3.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\LAG31.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG3.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG32.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/LAG3.2.jpg",
+      "RelativePath": "images/products/LAG32.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1153,15 +1153,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\LAG3.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\LAG32.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG3.3.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG33.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/LAG3.3.jpg",
+      "RelativePath": "images/products/LAG33.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1170,15 +1170,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\LAG3.3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\LAG33.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG3.4.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\LAG34.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/LAG3.4.jpg",
+      "RelativePath": "images/products/LAG34.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1187,15 +1187,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\LAG3.4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\LAG34.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\MOD1.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\MOD11.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/MOD1.1.jpg",
+      "RelativePath": "images/products/MOD11.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1204,15 +1204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\MOD1.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\MOD11.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\MOD1.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\MOD12.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/MOD1.2.jpg",
+      "RelativePath": "images/products/MOD12.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1221,15 +1221,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\MOD1.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\MOD12.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\MOD1.3.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\MOD13.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/MOD1.3.jpg",
+      "RelativePath": "images/products/MOD13.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1238,15 +1238,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\MOD1.3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\MOD13.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TEM1.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TEM11.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TEM1.1.jpg",
+      "RelativePath": "images/products/TEM11.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1255,15 +1255,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TEM1.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TEM11.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TEM1.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TEM12.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TEM1.2.jpg",
+      "RelativePath": "images/products/TEM12.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1272,15 +1272,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TEM1.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TEM12.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TEM1.3.png",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TEM13.png",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TEM1.3.png",
+      "RelativePath": "images/products/TEM13.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1289,15 +1289,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TEM1.3.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TEM13.png"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP1.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP11.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TIP1.1.jpg",
+      "RelativePath": "images/products/TIP11.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1306,15 +1306,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TIP1.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TIP11.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP1.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP12.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TIP1.2.jpg",
+      "RelativePath": "images/products/TIP12.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1323,15 +1323,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TIP1.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TIP12.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP2.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP21.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TIP2.1.jpg",
+      "RelativePath": "images/products/TIP21.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1340,15 +1340,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TIP2.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TIP21.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP2.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP22.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TIP2.2.jpg",
+      "RelativePath": "images/products/TIP22.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1357,15 +1357,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TIP2.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TIP22.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP2.3.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP23.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TIP2.3.jpg",
+      "RelativePath": "images/products/TIP23.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1374,15 +1374,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TIP2.3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TIP23.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP3.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP31.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TIP3.1.jpg",
+      "RelativePath": "images/products/TIP31.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1391,15 +1391,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TIP3.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TIP31.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP3.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP32.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TIP3.2.jpg",
+      "RelativePath": "images/products/TIP32.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1408,15 +1408,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TIP3.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TIP32.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP4.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP41.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TIP4.1.jpg",
+      "RelativePath": "images/products/TIP41.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1425,15 +1425,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TIP4.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TIP41.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP4.2.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TIP42.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TIP4.2.jpg",
+      "RelativePath": "images/products/TIP42.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1442,15 +1442,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TIP4.2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TIP42.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TUB1.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TUB11.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TUB1.1.jpg",
+      "RelativePath": "images/products/TUB11.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1459,15 +1459,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TUB1.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TUB11.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TUB2.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TUB21.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TUB2.1.jpg",
+      "RelativePath": "images/products/TUB21.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1476,15 +1476,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TUB2.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TUB21.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TUB3.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TUB31.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TUB3.1.jpg",
+      "RelativePath": "images/products/TUB31.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1493,15 +1493,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TUB3.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TUB31.jpg"
     },
     {
-      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TUB4.1.jpg",
+      "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\products\\TUB41.jpg",
       "SourceId": "GlampingITM",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\",
       "BasePath": "_content/GlampingITM",
-      "RelativePath": "images/products/TUB4.1.jpg",
+      "RelativePath": "images/products/TUB41.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1510,7 +1510,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\TUB4.1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\TUB41.jpg"
     },
     {
       "Identity": "D:\\DOCUMENTOS\\UNIVERSIDAD\\2022-1\\Programacion de Software\\Proyecto de clase\\GlampingITM\\GlampingITM\\GlampingITM\\wwwroot\\images\\users\\DarthVaderUser.jpg",

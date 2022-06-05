@@ -24,6 +24,8 @@ namespace GlampingITM.Data
 
         public DbSet<ProductImage> ProductImages { get; set; }
 
+        public DbSet<TemporalSale> TemporalSales { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

@@ -15,7 +15,7 @@ namespace GlampingITM.Data
         {
             _context = context;
             _userHelper = userHelper;
-            this._blobHelper = blobHelper;
+            _blobHelper = blobHelper;
         }
 
         public async Task SeedAsync()
@@ -40,40 +40,40 @@ namespace GlampingITM.Data
         {
             if (!_context.Products.Any())
             {
-                await AddProductAsync("Burbuja 01", 380000M, 4F, new List<string>() {"Burbujas" }, new List<string>() { "B1.1.jpg", "B1.2.jpg" });
-                await AddProductAsync("Burbuja 02", 420000M, 4F, new List<string>() {"Burbujas" }, new List<string>() { "B2.1.jpg", "B2.2.jpg", "B2.3.jpg", "B2.4.jpg" });
-                await AddProductAsync("Arbol 01", 730000M, 1F, new List<string>() { "Arboles" }, new List<string>() { "A1.1.jpg", "A1.2.jpg", "A1.3.jpg", "A1.4.jpg", "A1.5.jpg" });
-                await AddProductAsync("Arbol 02", 630000M, 2F, new List<string>() { "Arboles" }, new List<string>() { "A2.1.jpg", "A2.2.jpg", "A2.3.jpg", "A2.4.jpg", "A2.5.jpg" });
-                await AddProductAsync("Cabaña 01", 820000M, 2F, new List<string>() { "Cabañas" }, new List<string>() { "C1.1.jpg", "C1.2.jpg", "C1.3.jpg", "C1.4.jpg" });
-                await AddProductAsync("Cabaña 02", 790000M, 3F, new List<string>() { "Cabañas" }, new List<string>() { "C2.1.jpg", "C2.2.jpg", "C2.3.jpg" });
-                await AddProductAsync("Cabaña 03", 820000M, 2F, new List<string>() { "Cabañas" }, new List<string>() { "C3.1.png", "C3.2.jpg", "C3.3.jpg" });
-                await AddProductAsync("Contenedor 01", 290000M, 4F, new List<string>() { "Contenedores"}, new List<string>() { "CON1.1.jpg", "CON1.2.jpg", "CON1.3.jpg" });
-                await AddProductAsync("Domo 01", 670000M, 4F, new List<string>() { "Domos" }, new List<string>() { "DOMO1.1.jpg", "DOMO1.2.jpeg" });
-                await AddProductAsync("Domo 02", 650000M, 3F, new List<string>() { "Domos" }, new List<string>() { "DOMO2.1.jpg", "DOMO2.2.jpg", "DOMO2.3.jpg","DOMO2.4.jpg", "DOMO2.5.jpg", "DOMO2.6.jpg" });
-                await AddProductAsync("DOMO 03", 660000M, 1F, new List<string>() { "Domos" }, new List<string>() { "DOMO3.1.jpg", "DOMO3.2.jpg", "DOMO3.3.jpg", "DOMO3.4.jpg", "DOMO3.5.jpg" });
-                await AddProductAsync("DOMO 04", 680000M, 2F, new List<string>() { "Domos" }, new List<string>() { "DOMO4.1.jpg", "DOMO4.2.jpg" });
-                await AddProductAsync("Elevado 01", 320000M, 4F, new List<string>() { "Elevados" }, new List<string>() { "ELE1.1.jpg", "ELE1.2.jpg", "ELE1.3.jpg", "ELE1.4.jpg", "ELE1.5.jpg" });
-                await AddProductAsync("Elevado 02", 330000M, 4F, new List<string>() { "Elevados" }, new List<string>() { "ELE2.1.jpg", "ELE2.2.jpg", "ELE2.3.jpg" });
-                await AddProductAsync("Lago 01", 430000M, 4F, new List<string>() { "Lagos" }, new List<string>() { "LAG1.1.jpg", "LAG1.2.jpg", "LAG1.3.jpg", "LAG1.4.jpg" });
-                await AddProductAsync("Lago 02", 400000M, 4F, new List<string>() { "Lagos" }, new List<string>() { "LAG2.1.jpg", "LAG2.2.jpg" });
-                await AddProductAsync("Lago 03", 410000M, 4F, new List<string>() { "Lagos" }, new List<string>() { "LAG3.1.jpg", "LAG3.2.jpg", "LAG3.3.jpg", "LAG3.4.jpg" });
-                await AddProductAsync("Moderna 01", 1100000M, 4F, new List<string>() { "Modernas" }, new List<string>() { "MOD1.1.jpg", "MOD1.2.jpg", "MOD1.3.jpg" });
-                await AddProductAsync("Tematica 01", 1200000M, 4F, new List<string>() { "Tematicas" }, new List<string>() { "TEM1.1.jpg", "TEM1.2.jpg", "TEM1.3.png" });
-                await AddProductAsync("Tipi 01", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP1.1.jpg", "TIP1.2.jpg" });
-                await AddProductAsync("Tipi 02", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP2.1.jpg", "TIP2.2.jpg", "TIP2.3.jpg" });
-                await AddProductAsync("Tipi 03", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP3.1.jpg", "TIP3.2.jpg" });
-                await AddProductAsync("Tipi 04", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP4.1.jpg", "TIP4.2.jpg" });
-                await AddProductAsync("Tubular 01", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB1.1.jpg" });
-                await AddProductAsync("Tubular 02", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB2.1.jpg" });
-                await AddProductAsync("Tubular 03", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB3.1.jpg" });
-                await AddProductAsync("Tubular 04", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB4.1.jpg" });
+                await AddProductAsync("Burbuja 01", 380000M, 4F, new List<string>() {"Burbujas" }, new List<string>() { "B11.jpg", "B12.jpg" });
+                await AddProductAsync("Burbuja 02", 420000M, 4F, new List<string>() {"Burbujas" }, new List<string>() { "B21.jpg", "B22.jpg", "B23.jpg", "B24.jpg" });
+                await AddProductAsync("Arbol 01", 730000M, 1F, new List<string>() { "Arboles" }, new List<string>() { "A11.jpg", "A12.jpg", "A13.jpg", "A14.jpg", "A15.jpg" });
+                await AddProductAsync("Arbol 02", 630000M, 2F, new List<string>() { "Arboles" }, new List<string>() { "A21.jpg", "A22.jpg", "A23.jpg", "A24.jpg", "A25.jpg" });
+                await AddProductAsync("Cabaña 01", 820000M, 2F, new List<string>() { "Cabañas" }, new List<string>() { "C11.jpg", "C12.jpg", "C13.jpg", "C14.jpg" });
+                await AddProductAsync("Cabaña 02", 790000M, 3F, new List<string>() { "Cabañas" }, new List<string>() { "C21.jpg", "C22.jpg", "C23.jpg" });
+                await AddProductAsync("Cabaña 03", 820000M, 2F, new List<string>() { "Cabañas" }, new List<string>() { "C31.png", "C32.jpg", "C33.jpg" });
+                await AddProductAsync("Contenedor 01", 290000M, 4F, new List<string>() { "Contenedores"}, new List<string>() { "CON11.jpg", "CON12.jpg", "CON13.jpg" });
+                await AddProductAsync("Domo 01", 670000M, 4F, new List<string>() { "Domos" }, new List<string>() { "DOMO11.jpg", "DOMO12.jpeg" });
+                await AddProductAsync("Domo 02", 650000M, 3F, new List<string>() { "Domos" }, new List<string>() { "DOMO21.jpg", "DOMO22.jpg", "DOMO23.jpg","DOMO24.jpg", "DOMO25.jpg", "DOMO26.jpg" });
+                await AddProductAsync("DOMO 03", 660000M, 1F, new List<string>() { "Domos" }, new List<string>() { "DOMO31.jpg", "DOMO32.jpg", "DOMO33.jpg", "DOMO34.jpg", "DOMO35.jpg" });
+                await AddProductAsync("DOMO 04", 680000M, 2F, new List<string>() { "Domos" }, new List<string>() { "DOMO41.jpg", "DOMO42.jpg" });
+                await AddProductAsync("Elevado 01", 320000M, 4F, new List<string>() { "Elevados" }, new List<string>() { "ELE11.jpg", "ELE12.jpg", "ELE13.jpg", "ELE14.jpg", "ELE15.jpg" });
+                await AddProductAsync("Elevado 02", 330000M, 4F, new List<string>() { "Elevados" }, new List<string>() { "ELE21.jpg", "ELE22.jpg", "ELE23.jpg" });
+                await AddProductAsync("Lago 01", 430000M, 4F, new List<string>() { "Lagos" }, new List<string>() { "LAG11.jpg", "LAG12.jpg", "LAG13.jpg", "LAG14.jpg" });
+                await AddProductAsync("Lago 02", 400000M, 4F, new List<string>() { "Lagos" }, new List<string>() { "LAG21.jpg", "LAG22.jpg" });
+                await AddProductAsync("Lago 03", 410000M, 4F, new List<string>() { "Lagos" }, new List<string>() { "LAG31.jpg", "LAG32.jpg", "LAG33.jpg", "LAG34.jpg" });
+                await AddProductAsync("Moderna 01", 1100000M, 4F, new List<string>() { "Modernas" }, new List<string>() { "MOD11.jpg", "MOD12.jpg", "MOD13.jpg" });
+                await AddProductAsync("Tematica 01", 1200000M, 4F, new List<string>() { "Tematicas" }, new List<string>() { "TEM11.jpg", "TEM12.jpg", "TEM13.png" });
+                await AddProductAsync("Tipi 01", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP11.jpg", "TIP12.jpg" });
+                await AddProductAsync("Tipi 02", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP21.jpg", "TIP22.jpg", "TIP23.jpg" });
+                await AddProductAsync("Tipi 03", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP31.jpg", "TIP32.jpg" });
+                await AddProductAsync("Tipi 04", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP41.jpg", "TIP42.jpg" });
+                await AddProductAsync("Tubular 01", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB11.jpg" });
+                await AddProductAsync("Tubular 02", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB21.jpg" });
+                await AddProductAsync("Tubular 03", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB31.jpg" });
+                await AddProductAsync("Tubular 04", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB41.jpg" });
                 await _context.SaveChangesAsync();
             }
 
         }
         private async Task AddProductAsync(string name, decimal price, float stock, List<string> categories, List<string> images)
         {
-            Product prodcut = new()
+            Product product = new()
             {
                 Description = name,
                 Name = name,
@@ -85,17 +85,17 @@ namespace GlampingITM.Data
 
             foreach (string? category in categories)
             {
-                prodcut.ProductCategories.Add(new ProductCategory { Category = await _context.Categories.FirstOrDefaultAsync(c => c.Name == category) });
+                product.ProductCategories.Add(new ProductCategory { Category = await _context.Categories.FirstOrDefaultAsync(c => c.Name == category) });
             }
 
 
             foreach (string? image in images)
             {
                 Guid imageId = await _blobHelper.UploadBlobAsync($"{Environment.CurrentDirectory}\\wwwroot\\images\\products\\{image}", "products");
-                prodcut.ProductImages.Add(new ProductImage { ImageId = imageId });
+                product.ProductImages.Add(new ProductImage { ImageId = imageId });
             }
 
-            _context.Products.Add(prodcut);
+            _context.Products.Add(product);
         }
 
 
