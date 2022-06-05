@@ -159,6 +159,36 @@ namespace GlampingITM.Controllers
 
             return RedirectToAction(nameof(Details), new { Id = sale.Id });
         }
+        public async Task<IActionResult> MyOrders()
+        {
+            return View(await _context.Sales
+                .Include(s => s.User)
+                .Include(s => s.SaleDetails)
+                .ThenInclude(sd => sd.Product)
+                .Where(s => s.User.UserName == User.Identity.Name)
+                .ToListAsync());
+        }
+        public async Task<IActionResult> MyDetails(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            Sale sale = await _context.Sales
+                .Include(s => s.User)
+                .Include(s => s.SaleDetails)
+                .ThenInclude(sd => sd.Product)
+                .ThenInclude(p => p.ProductImages)
+                .FirstOrDefaultAsync(s => s.Id == id);
+            if (sale == null)
+            {
+                return NotFound();
+            }
+
+            return View(sale);
+        }
+
 
 
 
