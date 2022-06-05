@@ -6,6 +6,8 @@ using GlampingITM.Data.Entities;
 using GlampingITM.Helpers;
 using GlampingITM.Models;
 using System.ComponentModel.DataAnnotations;
+using static GlampingITM.Helpers.ModalHelper;
+using Vereyon.Web;
 
 
 //[Authorize(Roles = "Admin")]
@@ -15,12 +17,15 @@ public class ProductsController : Controller
         private readonly DataContext _context;
         private readonly ICombosHelper _combosHelper;
         private readonly IBlobHelper _blobHelper;
+        private readonly IFlashMessage _flashMessage;
 
-        public ProductsController(DataContext context, ICombosHelper combosHelper, IBlobHelper blobHelper)
+        public ProductsController(DataContext context, ICombosHelper combosHelper, IBlobHelper blobHelper, 
+            IFlashMessage flashMessage)
         {
             _context = context;
             _combosHelper = combosHelper;
             _blobHelper = blobHelper;
+            _flashMessage = flashMessage;
         }
 
         public async Task<IActionResult> Index()
@@ -32,6 +37,7 @@ public class ProductsController : Controller
                 .ToListAsync());
         }
 
+        [NoDirectAccess]
         public async Task<IActionResult> Create()
         {
             CreateProductViewModel model = new()
@@ -82,7 +88,17 @@ public class ProductsController : Controller
                 {
                     _context.Add(product);
                     await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
+
+                    _flashMessage.Confirmation("Registro creado.");
+                    return Json(new
+                    {
+                        isValid = true,
+                        html = ModalHelper.RenderRazorViewToString(this, "_ViewAllProducts", _context.Products
+                        .Include(p => p.ProductImages)
+                        .Include(p => p.ProductCategories)
+                        .ThenInclude(pc => pc.Category).ToList())
+                    });
+
                 }
                 catch (DbUpdateException dbUpdateException)
                 {
@@ -102,16 +118,13 @@ public class ProductsController : Controller
             }
 
             model.Categories = await _combosHelper.GetComboCategoriesAsync();
-            return View(model);
-        }
+            return Json(new { isValid = false, html = ModalHelper.RenderRazorViewToString(this, "Create", model) });
+         }
 
-        public async Task<IActionResult> Edit(int? id)
+        [NoDirectAccess]
+        public async Task<IActionResult> Edit(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
+            
             Product product = await _context.Products.FindAsync(id);
             if (product == null)
             {
@@ -148,25 +161,34 @@ public class ProductsController : Controller
                 product.Stock = model.Stock;
                 _context.Update(product);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            catch (DbUpdateException dbUpdateException)
-            {
-                if (dbUpdateException.InnerException.Message.Contains("duplicate"))
+                _flashMessage.Confirmation("Registro actualizado.");
+                return Json(new
                 {
-                    ModelState.AddModelError(string.Empty, "Ya existe un Glamping con el mismo nombre.");
-                }
-                else
-                {
-                    ModelState.AddModelError(string.Empty, dbUpdateException.InnerException.Message);
-                }
-            }
-            catch (Exception exception)
-            {
-                ModelState.AddModelError(string.Empty, exception.Message);
-            }
+                    isValid = true,
+                    html = ModalHelper.RenderRazorViewToString(this, "_ViewAllProducts", _context.Products
+                    .Include(p => p.ProductImages)
+                    .Include(p => p.ProductCategories)
+                    .ThenInclude(pc => pc.Category).ToList())
+                });
 
-            return View(model);
+             }
+             catch (DbUpdateException dbUpdateException)
+                {
+                    if (dbUpdateException.InnerException.Message.Contains("duplicate"))
+                    {
+                        ModelState.AddModelError(string.Empty, "Ya existe un Glamping con el mismo nombre.");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError(string.Empty, dbUpdateException.InnerException.Message);
+                    }
+                }
+            catch (Exception exception)
+                {
+                    ModelState.AddModelError(string.Empty, exception.Message);
+                }
+
+            return Json(new { isValid = false, html = ModalHelper.RenderRazorViewToString(this, "Edit", model) });
         }
 
         public async Task<IActionResult> Details(int? id)
@@ -189,6 +211,7 @@ public class ProductsController : Controller
             return View(product);
         }
 
+        [NoDirectAccess]
         public async Task<IActionResult> AddImage(int? id)
         {
             if (id == null)
@@ -229,16 +252,26 @@ public class ProductsController : Controller
                 {
                     _context.Add(productImage);
                     await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Details), new { Id = product.Id });
+                    _flashMessage.Confirmation("Imagen agregada.");
+                    return Json(new
+                    {
+                        isValid = true,
+                        html = ModalHelper.RenderRazorViewToString(this, "Details", _context.Products
+                   .Include(p => p.ProductImages)
+                   .Include(p => p.ProductCategories)
+                   .ThenInclude(pc => pc.Category)
+                   .FirstOrDefaultAsync(p => p.Id == model.ProductId))
+                    });
+
                 }
                 catch (Exception exception)
                 {
-                    ModelState.AddModelError(string.Empty, exception.Message);
+                    _flashMessage.Danger(exception.Message );
                 }
             }
 
-            return View(model);
-        }
+            return Json(new { isValid = false, html = ModalHelper.RenderRazorViewToString(this, "AddImage", model) });
+         }
 
         public async Task<IActionResult> DeleteImage(int? id)
         {
@@ -258,9 +291,12 @@ public class ProductsController : Controller
             await _blobHelper.DeleteBlobAsync(productImage.ImageId, "products");
             _context.ProductImages.Remove(productImage);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Details), new { Id = productImage.Product.Id });
+            _flashMessage.Info("Registro borrado.");
+            return RedirectToAction(nameof(Details), new { id = productImage.Product.Id });
         }
 
+
+        [NoDirectAccess]
         public async Task<IActionResult> AddCategory(int? id)
         {
             if (id == null)
@@ -314,11 +350,21 @@ public class ProductsController : Controller
                             {
                                 _context.Add(productCategory);
                                 await _context.SaveChangesAsync();
-                                return RedirectToAction(nameof(Details), new { Id = product.Id });
+                                _flashMessage.Confirmation("Categorpia agregada");
+                                return Json(new
+                                 {
+                                    isValid = true,
+                                    html = ModalHelper.RenderRazorViewToString(this, "Details", _context.Products
+                                        .Include(p => p.ProductImages)
+                                        .Include(p => p.ProductCategories)
+                                        .ThenInclude(pc => pc.Category)
+                                        .FirstOrDefaultAsync(p => p.Id == model.ProductId))
+                                });
+
                             }
                             catch (Exception exception)
                             {
-                                ModelState.AddModelError(string.Empty, exception.Message);
+                                 _flashMessage.Danger(exception.Message);
                             }
                     }        
 
@@ -329,7 +375,7 @@ public class ProductsController : Controller
                     }).ToList();
 
                     model.Categories = await _combosHelper.GetComboCategoriesAsync();
-                        return View(model);
+                    return Json(new { isValid = false, html = ModalHelper.RenderRazorViewToString(this, "AddCategory", model) });
         }
 
         public async Task<IActionResult> DeleteCategory(int? id)
@@ -349,16 +395,13 @@ public class ProductsController : Controller
 
             _context.ProductCategories.Remove(productCategory);
             await _context.SaveChangesAsync();
+            _flashMessage.Info("Registro borrado.");
             return RedirectToAction(nameof(Details), new { Id = productCategory.Product.Id });
         }
 
-        public async Task<IActionResult> Delete(int? id)
+        [NoDirectAccess]
+        public async Task<IActionResult> Delete(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
             Product product = await _context.Products
                 .Include(p => p.ProductCategories)
                 .Include(p => p.ProductImages)
@@ -368,33 +411,16 @@ public class ProductsController : Controller
                 return NotFound();
             }
 
-            return View(product);
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Delete(Product model)
+            foreach (ProductImage productImage in product.ProductImages)
             {
-                Product product = await _context.Products
-                    .Include(p => p.ProductImages)
-                    .Include(p => p.ProductCategories)
-                    .FirstOrDefaultAsync(p => p.Id == model.Id);
+                await _blobHelper.DeleteBlobAsync(productImage.ImageId, "products");
+            }
 
-               
-                _context.Products.Remove(product);
-                await _context.SaveChangesAsync();
-
-                foreach (ProductImage productImage in product.ProductImages)
-                {
-                    await _blobHelper.DeleteBlobAsync(productImage.ImageId, "products");
-                }
-                return RedirectToAction(nameof(Index));
-         }
-
-
-
-
-
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+            _flashMessage.Info("Registro borrado.");
+            return RedirectToAction(nameof(Index));
+        }
 
 }
 

@@ -243,8 +243,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcX1Byb2R1Y3REZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Products/_ViewAllCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcX1ZpZXdBbGxDYXRlZ29yaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Products/_ViewAllImages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcX1ZpZXdBbGxJbWFnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Products/_ViewAllProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcX1ZpZXdBbGxQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Shared/_AddOrEditDialog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZGRPckVkaXREaWFsb2cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Shared/_BusyIndicatorPartial.cshtml]
