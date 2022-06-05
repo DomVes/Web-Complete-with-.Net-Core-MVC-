@@ -17,7 +17,8 @@ namespace GlampingITM.Controllers
         private readonly IUserHelper _userHelper;
         private readonly IOrdersHelper _ordersHelper;
 
-        public HomeController(ILogger<HomeController> logger, DataContext context, IUserHelper userHelper, IOrdersHelper ordersHelper)
+        public HomeController(ILogger<HomeController> logger, DataContext context, IUserHelper userHelper,
+            IOrdersHelper ordersHelper)
         {
             _logger = logger;
             _context = context;
@@ -25,16 +26,62 @@ namespace GlampingITM.Controllers
             _ordersHelper = ordersHelper;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string sortOrder, string currentFilter, string searchString, int? pageNumber)
         {
-            List<Product> products = await _context.Products
+
+            ViewData["CurrentSort"] = sortOrder;
+            ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "NameDesc" : "";
+            ViewData["PriceSortParm"] = sortOrder == "Price" ? "PriceDesc" : "Price";
+
+            if (searchString != null)
+            {
+                pageNumber = 1;
+            }
+            else
+            {
+                searchString = currentFilter;
+            }
+
+            ViewData["CurrentFilter"] = searchString;
+
+
+            IQueryable<Product> query = _context.Products
                 .Include(p => p.ProductImages)
                 .Include(p => p.ProductCategories)
-                .OrderBy(p => p.Description)
-                .Where(p => p.Stock > 0)
-                .ToListAsync();
+                .ThenInclude(pc => pc.Category);
 
-            HomeViewModel model = new() { Products = products };
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                query = query.Where(p => (p.Name.ToLower().Contains(searchString.ToLower()) ||
+                                            p.ProductCategories.Any(pc => pc.Category.Name.ToLower().Contains(searchString.ToLower()))) &&
+                                            p.Stock > 0);
+            }
+            else
+            {
+                query = query.Where(p => p.Stock > 0);
+            }
+
+            switch (sortOrder)
+            {
+                case "NameDesc":
+                    query = query.OrderByDescending(p => p.Name);
+                    break;
+                case "Price":
+                    query = query.OrderBy(p => p.Price);
+                    break;
+                case "PriceDesc":
+                    query = query.OrderByDescending(p => p.Price);
+                    break;
+                default:
+                    query = query.OrderBy(p => p.Name);
+                    break;
+            }
+
+            int pageSize = 15;
+            HomeViewModel model = new() {
+                Products = await PaginatedList<Product>.CreateAsync(query, pageNumber ?? 1, pageSize),
+                Categories = await _context.Categories.ToListAsync(),
+            };
             User user = await _userHelper.GetUserAsync(User.Identity.Name);
             if (user != null)
             {

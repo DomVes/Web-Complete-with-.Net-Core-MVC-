@@ -16,6 +16,31 @@
     }
 </style>
 
+<h1>Glamping ITM</h1>
+<h3>Categorías</h3>
+
+<div class="mb-2">
+    @foreach (var item in Model.Categories)
+    {
+        <span>@item.Name&nbsp;&nbsp;</span>
+    }
+</div>
+
+<div class="mb-2">
+    <a asp-action="Index" class="btn btn-outline-primary" asp-route-sortOrder="@ViewData["NameSortParm"]">Ordenar por Nombre</a>&nbsp;&nbsp;
+    <a asp-action="Index" class="btn btn-outline-primary" asp-route-sortOrder="@ViewData["PriceSortParm"]">Ordenar por Precio</a>
+</div>
+
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Buscar por nombre o categoría: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
+            <input type="submit" value="Buscar" class="btn btn-outline-success" />
+            <a asp-action="Index" class="btn btn-outline-warning">Ver Todos</a>
+        </p>
+    </div>
+</form>
+
 @if(Model.Quantity > 0)
 {
     <a asp-action="ShowCart" class="btn btn-outline-primary">Ver Carro de Compras (@Model.Quantity)</a>
@@ -28,8 +53,8 @@
         {
             <div class="col zoom">
                 <div class="card h-100">
-                    <div class="text-center zoom">
-                        <img src="@item.ImageFullPath" style="height:150px; max-width:200px;" class="text-center" alt=@item.Name />
+                    <div class="text-center">
+                        <img src="@item.ImageFullPath" style="height:200px; max-width:200px;" class="text-center" alt=@item.Name />
                     </div>
                     <div class="card-body">
                         <h5 class="card-title text-navy"> @item.Name</h5>
@@ -37,8 +62,8 @@
                         <h5 class="text-muted">@Html.DisplayFor(modelItem => item.Price)</h5>
                     </div>
                     <div class="card-footer text-center">
-                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-secondary">Details</a>
-                        <a asp-action="Add" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Add to Cart</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary">Ver más</a>
+                        <a asp-action="Add" asp-route-id="@item.Id" class="btn btn-sm btn-success">Añadir al Carrito</a>
                     </div>
                 </div>
             </div>
@@ -48,6 +73,27 @@
     {
         <h3>No hay productos con su criterio de búsqueda</h3>
     }
+</div>
+@{
+    var prevDisabled = !Model.Products.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.Products.HasNextPage ? "disabled" : "";
+}
+
+<div class="mt-5">
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.Products.PageIndex - 1)"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       class="btn btn-default @prevDisabled">
+        Anterior
+    </a>
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.Products.PageIndex + 1)"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       class="btn btn-default @nextDisabled">
+        Siguiente
+    </a>
 </div>
 
 @section Scripts {
