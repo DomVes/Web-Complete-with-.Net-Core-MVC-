@@ -42,7 +42,7 @@ namespace GlampingITM.Models
             : $"https://glampingitm.blob.core.windows.net/users/{ImageId}";
 
         [Display(Name = "Image")]
-        public IFormFile? ImageFile { get; set; }
+        public IFormFile ImageFile { get; set; }
         
         
         [Display(Name = "País")]

@@ -1134,3 +1134,6 @@ D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\Glam
 D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\MimeKit.dll
 D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\BouncyCastle.Crypto.dll
 D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\libman.json
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\DOCUMENTOS\UNIVERSIDAD\2022-1\Programacion de Software\Proyecto de clase\GlampingITM\GlampingITM\GlampingITM\bin\Debug\net6.0\Vereyon.Web.FlashMessage.dll
