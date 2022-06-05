@@ -21,34 +21,7 @@ html {
 
 @charset "utf-8";
 
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 300px;
-    height: 370px;
-    border: 1px solid lightgray;
-    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
-    border-radius: 15px;
-    font-family: sans-serif;
-    margin: 5px;
-}
 
-.card_title {
-    font-size: 24px;
-    padding: 10px 10px 0 10px;
-}
-
-.card_body {
-    padding: 10px;
-}
-
-.card_foot {
-    background: #cdb4db;
-    border-radius: 0 0 15px 15px;
-    padding: 10px;
-    text-align: center;
-}
 
 /*Zoom images*/
 .zoom {
@@ -61,10 +34,22 @@ html {
 }
 
     .zoom:hover {
-        -ms-transform: scale(2); 
-        -webkit-transform: scale(2); 
-        transform: scale(2);
+        -ms-transform: scale(1.1); 
+        -webkit-transform: scale(1.1); 
+        transform: scale(1.1);
     }
+
+.carousel-inner {
+    width: auto;
+    height: 500px;
+    max-height: 500px !important;
+}
+
+.carousel-content {
+    color: black;
+    display: flex;
+    text-align: center;
+}
 
 .foot a {
     text-decoration: none;

@@ -1,8 +1,10 @@
-﻿namespace GlampingITM.Models
+﻿using GlampingITM.Data.Entities;
+
+namespace GlampingITM.Models
 {
     public class HomeViewModel
     {
-        public ICollection<ProductsHomeViewModel> Products { get; set; }
+        public ICollection<Product> Products { get; set; }
 
         public float Quantity { get; set; }
     }
