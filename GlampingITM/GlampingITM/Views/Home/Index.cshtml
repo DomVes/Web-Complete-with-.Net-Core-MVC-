@@ -17,30 +17,25 @@
 </style>
 
 <h1>Glamping ITM</h1>
-<h3>Categorías</h3>
-
-<div class="mb-2">
-    @foreach (var item in Model.Categories)
-    {
-        <span>@item.Name&nbsp;&nbsp;</span>
-    }
-</div>
-
-<div class="mb-2">
-    <a asp-action="Index" class="btn btn-outline-primary" asp-route-sortOrder="@ViewData["NameSortParm"]">Ordenar por Nombre</a>&nbsp;&nbsp;
-    <a asp-action="Index" class="btn btn-outline-primary" asp-route-sortOrder="@ViewData["PriceSortParm"]">Ordenar por Precio</a>
-</div>
-
 <form asp-action="Index" method="get">
     <div class="form-actions no-color">
         <p>
             Buscar por nombre o categoría: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
-            <input type="submit" value="Buscar" class="btn btn-outline-success" />
-            <a asp-action="Index" class="btn btn-outline-warning">Ver Todos</a>
+            <input type="submit" value="Buscar" class="btn btn-success" />
+            <a asp-action="Index" class="btn btn-warning">Ver Todos</a>
+            <a asp-action="Index" class="btn btn-default" asp-route-sortOrder="@ViewData["NameSortParm"]">Ordenar por Nombre</a>&nbsp;&nbsp;
+            <a asp-action="Index" class="btn btn-default" asp-route-sortOrder="@ViewData["PriceSortParm"]">Ordenar por Precio</a>
         </p>
     </div>
 </form>
-
+<hr/>
+<div class="mb-1" style="text-decoration:none; text-align:center">    
+    @foreach (var item in Model.Categories)
+    {
+        <span > <a href="@Url.Action("Index", "Home", new { searchString = item.Name})"> @item.Name&nbsp;</a> | </span>
+    }
+</div>
+<hr/>
 @if(Model.Quantity > 0)
 {
     <a asp-action="ShowCart" class="btn btn-outline-primary">Ver Carro de Compras (@Model.Quantity)</a>
