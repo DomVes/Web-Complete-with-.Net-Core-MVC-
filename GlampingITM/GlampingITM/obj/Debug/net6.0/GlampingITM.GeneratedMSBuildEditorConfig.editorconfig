@@ -47,16 +47,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Categories/AddOrEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xBZGRPckVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Categories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Categories/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Categories/Edit.cshtml]
@@ -73,6 +73,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Categories/_CategoryDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xfQ2F0ZWdvcnlEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Categories/_ViewAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xfVmlld0FsbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DOCUMENTOS/UNIVERSIDAD/2022-1/Programacion de Software/Proyecto de clase/GlampingITM/GlampingITM/GlampingITM/Views/Countries/AddCity.cshtml]
