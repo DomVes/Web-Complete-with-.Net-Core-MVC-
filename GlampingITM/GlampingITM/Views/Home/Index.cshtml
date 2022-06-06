@@ -5,40 +5,47 @@
 }
 <style type="text/css">
     .card {
-        
-        flex-direction: column;
-        border-radius: 53px 3px 79px 107px;
-        border-radius: 35px 35px 35px 35px;
-        -webkit-border-radius: 35px 35px 35px 35px;
-        -moz-border-radius: 35px 35px 35px 35px;
-        background: rgba(185,140,207,0.25);
-        border: 1px solid #1f6e26;
-        box-shadow: -5px 0px 21px -6px rgba(0,0,0,0.92);
-        -webkit-box-shadow: -5px 0px 21px -6px rgba(0,0,0,0.92);
-        -moz-box-shadow: -5px 0px 21px -6px rgba(0,0,0,0.92);
-        margin: 2px
+        margin: 50px auto;
+        width: 400px;
+        padding: 30px;
+        background-color: rgba(151, 107, 58, 0.3);
+        color: black;
+        border-radius: 10px;
     }
 
     .categories {
         text-decoration: none;
-        align-items:center;
+        align-items: center;
         color: black;
         text-shadow: 0px 6px 13px rgba(0,0,0,0.44);
     }
+
+    .nav-search {
+        border-radius: 75px 0px 161px 38px;
+        -webkit-border-radius: 75px 0px 161px 38px;
+        -moz-border-radius: 75px 0px 161px 38px;
+        background: rgba(162,96,164,0.08);
+        border: 2px solid rgba(28,126,69,0.16);       
+        padding: inherit;
+        text-align: center;
+        justify-content: space-between;
+
+    }
+
 </style>
 <form asp-action="Index" method="get">
-    <div class="form-actions no-color">
+    <div class="form-actions nav-search">
         <p>
             Buscar por nombre o categoría: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
             <input type="submit" value="Buscar" class="btn btn-success" />
-            <a asp-action="Index" class="btn btn-warning">Ver Todos</a>
-            <a asp-action="Index" class="btn btn-default" asp-route-sortOrder="@ViewData["NameSortParm"]">Ordenar por Nombre</a>&nbsp;&nbsp;
-            <a asp-action="Index" class="btn btn-default" asp-route-sortOrder="@ViewData["PriceSortParm"]">Ordenar por Precio</a>
+            <a asp-action="Index" class="btn btn-outline-dark">Ver Todos</a>
+            <a asp-action="Index" class="btn btn-outline-dark" asp-route-sortOrder="@ViewData["NameSortParm"]">Ordenar por Nombre</a>&nbsp;&nbsp;
+            <a asp-action="Index" class="btn btn-outline-dark" asp-route-sortOrder="@ViewData["PriceSortParm"]">Ordenar por Precio</a>
         </p>
     </div>
 </form>
 <hr />
-<div class="mb-1">
+<div class="mb-1 nav-search">
     @foreach (var item in Model.Categories)
     {
         <span> <a class="categories" href="@Url.Action("Index", "Home", new { searchString = item.Name})"> @item.Name&nbsp;</a> | </span>
@@ -56,7 +63,7 @@
         @foreach (var item in Model.Products)
         {
             <div class="zoom" style="text-align:center">
-                <div class="card h-200">
+                <div class="card ">
                     <div class="text-center">
                         <img src="@item.ImageFullPath" style="height:200px; max-width:200px; border-radius:0.5rem" class="text-center" alt=@item.Name />
                     </div>
@@ -69,7 +76,7 @@
                         <a asp-action="Add" asp-route-id="@item.Id" class="btn btn-sm btn-success">Añadir al Carrito</a>
                     </div>
                     <div>
-                        <h5 class="text-muted" style="text-align:center">@Html.DisplayFor(modelItem => item.Price)</h5>
+                        <h5 style="text-align:center">@Html.DisplayFor(modelItem => item.Price)</h5>
                     </div>
                 </div>
             </div>
