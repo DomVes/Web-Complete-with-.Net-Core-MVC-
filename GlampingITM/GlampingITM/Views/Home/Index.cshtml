@@ -5,14 +5,25 @@
 }
 <style type="text/css">
     .card {
-        display: flex;
+        
         flex-direction: column;
-        justify-content: space-between;
-        border: 1px solid lightgray;
-        box-shadow: 2px 2px 8px 4px #d3d3d3d1;
-        border-radius: 15px;
-        font-family: sans-serif;
-        margin: 5px;
+        border-radius: 53px 3px 79px 107px;
+        border-radius: 35px 35px 35px 35px;
+        -webkit-border-radius: 35px 35px 35px 35px;
+        -moz-border-radius: 35px 35px 35px 35px;
+        background: rgba(185,140,207,0.25);
+        border: 1px solid #1f6e26;
+        box-shadow: -5px 0px 21px -6px rgba(0,0,0,0.92);
+        -webkit-box-shadow: -5px 0px 21px -6px rgba(0,0,0,0.92);
+        -moz-box-shadow: -5px 0px 21px -6px rgba(0,0,0,0.92);
+        margin: 2px
+    }
+
+    .categories {
+        text-decoration: none;
+        align-items:center;
+        color: black;
+        text-shadow: 0px 6px 13px rgba(0,0,0,0.44);
     }
 </style>
 <form asp-action="Index" method="get">
@@ -26,15 +37,15 @@
         </p>
     </div>
 </form>
-<hr/>
-<div class="mb-1" style="text-decoration:none; text-align:center">    
+<hr />
+<div class="mb-1">
     @foreach (var item in Model.Categories)
     {
-        <span > <a href="@Url.Action("Index", "Home", new { searchString = item.Name})"> @item.Name&nbsp;</a> | </span>
+        <span> <a class="categories" href="@Url.Action("Index", "Home", new { searchString = item.Name})"> @item.Name&nbsp;</a> | </span>
     }
 </div>
-<hr/>
-@if(Model.Quantity > 0)
+<hr />
+@if (Model.Quantity > 0)
 {
     <a asp-action="ShowCart" class="btn btn-outline-primary">Ver Carro de Compras (@Model.Quantity)</a>
 }
@@ -44,19 +55,21 @@
     {
         @foreach (var item in Model.Products)
         {
-            <div class="col zoom">
-                <div class="card h-100">
+            <div class="zoom" style="text-align:center">
+                <div class="card h-200">
                     <div class="text-center">
-                        <img src="@item.ImageFullPath" style="height:200px; max-width:200px;" class="text-center" alt=@item.Name />
+                        <img src="@item.ImageFullPath" style="height:200px; max-width:200px; border-radius:0.5rem" class="text-center" alt=@item.Name />
                     </div>
                     <div class="card-body">
                         <h5 class="card-title text-navy"> @item.Name</h5>
                         <p class="card-text smfnt">@item.Description</p>
-                        <h5 class="text-muted">@Html.DisplayFor(modelItem => item.Price)</h5>
                     </div>
                     <div class="card-footer text-center">
                         <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary">Ver más</a>
                         <a asp-action="Add" asp-route-id="@item.Id" class="btn btn-sm btn-success">Añadir al Carrito</a>
+                    </div>
+                    <div>
+                        <h5 class="text-muted" style="text-align:center">@Html.DisplayFor(modelItem => item.Price)</h5>
                     </div>
                 </div>
             </div>
@@ -90,6 +103,8 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
 }
 

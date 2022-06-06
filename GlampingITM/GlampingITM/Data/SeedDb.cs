@@ -40,42 +40,42 @@ namespace GlampingITM.Data
         {
             if (!_context.Products.Any())
             {
-                await AddProductAsync("Burbuja 01", 380000M, 4F, new List<string>() {"Burbujas" }, new List<string>() { "B11.jpg", "B12.jpg" });
-                await AddProductAsync("Burbuja 02", 420000M, 4F, new List<string>() {"Burbujas" }, new List<string>() { "B21.jpg", "B22.jpg", "B23.jpg", "B24.jpg" });
-                await AddProductAsync("Arbol 01", 730000M, 1F, new List<string>() { "Arboles" }, new List<string>() { "A11.jpg", "A12.jpg", "A13.jpg", "A14.jpg", "A15.jpg" });
-                await AddProductAsync("Arbol 02", 630000M, 2F, new List<string>() { "Arboles" }, new List<string>() { "A21.jpg", "A22.jpg", "A23.jpg", "A24.jpg", "A25.jpg" });
-                await AddProductAsync("Cabaña 01", 820000M, 2F, new List<string>() { "Cabañas" }, new List<string>() { "C11.jpg", "C12.jpg", "C13.jpg", "C14.jpg" });
-                await AddProductAsync("Cabaña 02", 790000M, 3F, new List<string>() { "Cabañas" }, new List<string>() { "C21.jpg", "C22.jpg", "C23.jpg" });
-                await AddProductAsync("Cabaña 03", 820000M, 2F, new List<string>() { "Cabañas" }, new List<string>() { "C31.png", "C32.jpg", "C33.jpg" });
-                await AddProductAsync("Contenedor 01", 290000M, 4F, new List<string>() { "Contenedores"}, new List<string>() { "CON11.jpg", "CON12.jpg", "CON13.jpg" });
-                await AddProductAsync("Domo 01", 670000M, 4F, new List<string>() { "Domos" }, new List<string>() { "DOMO11.jpg", "DOMO12.jpeg" });
-                await AddProductAsync("Domo 02", 650000M, 3F, new List<string>() { "Domos" }, new List<string>() { "DOMO21.jpg", "DOMO22.jpg", "DOMO23.jpg","DOMO24.jpg", "DOMO25.jpg", "DOMO26.jpg" });
-                await AddProductAsync("DOMO 03", 660000M, 1F, new List<string>() { "Domos" }, new List<string>() { "DOMO31.jpg", "DOMO32.jpg", "DOMO33.jpg", "DOMO34.jpg", "DOMO35.jpg" });
-                await AddProductAsync("DOMO 04", 680000M, 2F, new List<string>() { "Domos" }, new List<string>() { "DOMO41.jpg", "DOMO42.jpg" });
-                await AddProductAsync("Elevado 01", 320000M, 4F, new List<string>() { "Elevados" }, new List<string>() { "ELE11.jpg", "ELE12.jpg", "ELE13.jpg", "ELE14.jpg", "ELE15.jpg" });
-                await AddProductAsync("Elevado 02", 330000M, 4F, new List<string>() { "Elevados" }, new List<string>() { "ELE21.jpg", "ELE22.jpg", "ELE23.jpg" });
-                await AddProductAsync("Lago 01", 430000M, 4F, new List<string>() { "Lagos" }, new List<string>() { "LAG11.jpg", "LAG12.jpg", "LAG13.jpg", "LAG14.jpg" });
-                await AddProductAsync("Lago 02", 400000M, 4F, new List<string>() { "Lagos" }, new List<string>() { "LAG21.jpg", "LAG22.jpg" });
-                await AddProductAsync("Lago 03", 410000M, 4F, new List<string>() { "Lagos" }, new List<string>() { "LAG31.jpg", "LAG32.jpg", "LAG33.jpg", "LAG34.jpg" });
-                await AddProductAsync("Moderna 01", 1100000M, 4F, new List<string>() { "Modernas" }, new List<string>() { "MOD11.jpg", "MOD12.jpg", "MOD13.jpg" });
-                await AddProductAsync("Tematica 01", 1200000M, 4F, new List<string>() { "Tematicas" }, new List<string>() { "TEM11.jpg", "TEM12.jpg", "TEM13.png" });
-                await AddProductAsync("Tipi 01", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP11.jpg", "TIP12.jpg" });
-                await AddProductAsync("Tipi 02", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP21.jpg", "TIP22.jpg", "TIP23.jpg" });
-                await AddProductAsync("Tipi 03", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP31.jpg", "TIP32.jpg" });
-                await AddProductAsync("Tipi 04", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP41.jpg", "TIP42.jpg" });
-                await AddProductAsync("Tubular 01", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB11.jpg" });
-                await AddProductAsync("Tubular 02", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB21.jpg" });
-                await AddProductAsync("Tubular 03", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB31.jpg" });
-                await AddProductAsync("Tubular 04", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB41.jpg" });
+                await AddProductAsync("Burbujas transparentes.", "Burbuja 01", 380000M, 4F, new List<string>() {"Burbujas" }, new List<string>() { "B11.jpg", "B12.jpg" });
+                await AddProductAsync("Burbujas transparentes.", "Burbuja 02", 420000M, 4F, new List<string>() {"Burbujas" }, new List<string>() { "B21.jpg", "B22.jpg", "B23.jpg", "B24.jpg" });
+                await AddProductAsync("Casa de madera.", "Arbol 01", 730000M, 1F, new List<string>() { "Arboles" }, new List<string>() { "A11.jpg", "A12.jpg", "A13.jpg", "A14.jpg", "A15.jpg" });
+                await AddProductAsync("Casa de madera.", "Arbol 02", 630000M, 2F, new List<string>() { "Arboles" }, new List<string>() { "A21.jpg", "A22.jpg", "A23.jpg", "A24.jpg", "A25.jpg" });
+                await AddProductAsync("Cabaña acogedora", "Cabaña 01", 820000M, 2F, new List<string>() { "Cabañas" }, new List<string>() { "C11.jpg", "C12.jpg", "C13.jpg", "C14.jpg" });
+                await AddProductAsync("Cabaña lujosa.","Cabaña 02", 790000M, 3F, new List<string>() { "Cabañas" }, new List<string>() { "C21.jpg", "C22.jpg", "C23.jpg" });
+                await AddProductAsync("Cabaña lujosa.", "Cabaña 03", 820000M, 2F, new List<string>() { "Cabañas" }, new List<string>() { "C31.png", "C32.jpg", "C33.jpg" });
+                await AddProductAsync("Unicos y lujosos.", "Contenedor 01", 290000M, 4F, new List<string>() { "Contenedores"}, new List<string>() { "CON11.jpg", "CON12.jpg", "CON13.jpg" });
+                await AddProductAsync("Vista 360°.", "Domo 01", 670000M, 4F, new List<string>() { "Domos" }, new List<string>() { "DOMO11.jpg", "DOMO12.jpeg" });
+                await AddProductAsync("Vista 360°.", "Domo 02", 650000M, 3F, new List<string>() { "Domos" }, new List<string>() { "DOMO21.jpg", "DOMO22.jpg", "DOMO23.jpg","DOMO24.jpg", "DOMO25.jpg", "DOMO26.jpg" });
+                await AddProductAsync("Vista 360°.", "DOMO 03", 660000M, 1F, new List<string>() { "Domos" }, new List<string>() { "DOMO31.jpg", "DOMO32.jpg", "DOMO33.jpg", "DOMO34.jpg", "DOMO35.jpg" });
+                await AddProductAsync("Vista 360°.", "DOMO 04", 680000M, 2F, new List<string>() { "Domos" }, new List<string>() { "DOMO41.jpg", "DOMO42.jpg" });
+                await AddProductAsync("Cada del árbol.", "Elevado 01", 320000M, 4F, new List<string>() { "Elevados" }, new List<string>() { "ELE11.jpg", "ELE12.jpg", "ELE13.jpg", "ELE14.jpg", "ELE15.jpg" });
+                await AddProductAsync("Cada del árbol.", "Elevado 02", 330000M, 4F, new List<string>() { "Elevados" }, new List<string>() { "ELE21.jpg", "ELE22.jpg", "ELE23.jpg" });
+                await AddProductAsync("Material orgánico.", "Lago 01", 430000M, 4F, new List<string>() { "Lagos" }, new List<string>() { "LAG11.jpg", "LAG12.jpg", "LAG13.jpg", "LAG14.jpg" });
+                await AddProductAsync("Material orgánico.", "Lago 02", 400000M, 4F, new List<string>() { "Lagos" }, new List<string>() { "LAG21.jpg", "LAG22.jpg" });
+                await AddProductAsync("Material orgánico.", "Lago 03", 410000M, 4F, new List<string>() { "Lagos" }, new List<string>() { "LAG31.jpg", "LAG32.jpg", "LAG33.jpg", "LAG34.jpg" });
+                await AddProductAsync("Lujo y clase.", "Moderna 01", 1100000M, 4F, new List<string>() { "Modernas" }, new List<string>() { "MOD11.jpg", "MOD12.jpg", "MOD13.jpg" });
+                await AddProductAsync("Donde los sueños se hacen realidad", "Tematica 01", 1200000M, 4F, new List<string>() { "Tematicas" }, new List<string>() { "TEM11.jpg", "TEM12.jpg", "TEM13.png" });
+                await AddProductAsync("Tienda cónica.", "Tipi 01", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP11.jpg", "TIP12.jpg" });
+                await AddProductAsync("Tienda cónica.", "Tipi 02", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP21.jpg", "TIP22.jpg", "TIP23.jpg" });
+                await AddProductAsync("Tienda cónica.", "Tipi 03", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP31.jpg", "TIP32.jpg" });
+                await AddProductAsync("Tienda cónica.", "Tipi 04", 500000M, 4F, new List<string>() { "Tipies" }, new List<string>() { "TIP41.jpg", "TIP42.jpg" });
+                await AddProductAsync("Forma de cilindro.", "Tubular 01", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB11.jpg" });
+                await AddProductAsync("Forma de cilindro.", "Tubular 02", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB21.jpg" });
+                await AddProductAsync("Forma de cilindro.", "Tubular 03", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB31.jpg" });
+                await AddProductAsync("Forma de cilindro.", "Tubular 04", 600000M, 2F, new List<string>() { "Tubulares" }, new List<string>() { "TUB41.jpg" });
                 await _context.SaveChangesAsync();
             }
 
         }
-        private async Task AddProductAsync(string name, decimal price, float stock, List<string> categories, List<string> images)
+        private async Task AddProductAsync(string description, string name, decimal price, float stock, List<string> categories, List<string> images)
         {
             Product product = new()
             {
-                Description = name,
+                Description = description,
                 Name = name,
                 Price = price,
                 Stock = stock,
