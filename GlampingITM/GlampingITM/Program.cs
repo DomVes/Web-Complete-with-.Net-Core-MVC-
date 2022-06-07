@@ -45,6 +45,7 @@ builder.Services.AddScoped<ICombosHelper, CombosHelper>();
 builder.Services.AddScoped<IBlobHelper, BlobHelper>();
 builder.Services.AddScoped<IMailHelper, MailHelper>();
 builder.Services.AddScoped<IOrdersHelper, OrdersHelper>();
+builder.Services.AddScoped<IApiService, ApiService>();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
 
@@ -59,7 +60,7 @@ void SeedData()
 
     using (IServiceScope? scope = scopedFactory.CreateScope())
     {
-        SeedDb? service = scope.ServiceProvider.GetService<SeedDb>();
+        SeedDb service = scope.ServiceProvider.GetService<SeedDb>();
         service.SeedAsync().Wait();
     }
     

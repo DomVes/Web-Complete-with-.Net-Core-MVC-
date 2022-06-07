@@ -5,7 +5,7 @@
 }
 <style type="text/css">
     .card {
-        margin: 50px auto;
+        margin: 7px auto;
         width: 400px;
         padding: 30px;
         background-color: rgba(151, 107, 58, 0.3);
@@ -25,22 +25,21 @@
         -webkit-border-radius: 75px 0px 161px 38px;
         -moz-border-radius: 75px 0px 161px 38px;
         background: rgba(162,96,164,0.08);
-        border: 2px solid rgba(28,126,69,0.16);       
-        padding: inherit;
+        border: 2px solid rgba(28,126,69,0.16);        
         text-align: center;
-        justify-content: space-between;
+        justify-content: space-between;        
 
     }
 
 </style>
 <form asp-action="Index" method="get">
-    <div class="form-actions nav-search">
+    <div class="form-actions nav-search mb-1">        
         <p>
-            Buscar por nombre o categoría: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
-            <input type="submit" value="Buscar" class="btn btn-success" />
-            <a asp-action="Index" class="btn btn-outline-dark">Ver Todos</a>
-            <a asp-action="Index" class="btn btn-outline-dark" asp-route-sortOrder="@ViewData["NameSortParm"]">Ordenar por Nombre</a>&nbsp;&nbsp;
-            <a asp-action="Index" class="btn btn-outline-dark" asp-route-sortOrder="@ViewData["PriceSortParm"]">Ordenar por Precio</a>
+            <input class="col-md-4 mt-2"placeholder="Buscar por nombre o categoría:" type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
+            <input type="submit" value="Buscar" class="btn btn-sm btn-success" />
+            <a asp-action="Index" class="btn btn-sm btn-outline-dark">Ver Todos</a>
+            <a asp-action="Index" class="btn btn-sm btn-outline-dark" asp-route-sortOrder="@ViewData["NameSortParm"]">Ordenar por Nombre</a>
+            <a asp-action="Index" class="btn btn-sm btn-outline-dark" asp-route-sortOrder="@ViewData["PriceSortParm"]">Ordenar por Precio</a>
         </p>
     </div>
 </form>
@@ -72,8 +71,8 @@
                         <p class="card-text smfnt">@item.Description</p>
                     </div>
                     <div class="card-footer text-center">
-                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary">Ver más</a>
-                        <a asp-action="Add" asp-route-id="@item.Id" class="btn btn-sm btn-success">Añadir al Carrito</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-secondary"><i class="fa-solid fa-circle-info"></i> Ver más</a>
+                        <a asp-action="Add" asp-route-id="@item.Id" class="btn btn-sm btn-success"><i class="fa fa-shopping-bag"></i> Añadir al Carrito</a>
                     </div>
                     <div>
                         <h5 style="text-align:center">@Html.DisplayFor(modelItem => item.Price)</h5>

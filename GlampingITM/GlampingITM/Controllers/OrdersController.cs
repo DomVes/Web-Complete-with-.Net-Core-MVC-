@@ -66,14 +66,14 @@ namespace GlampingITM.Controllers
 
             if (sale.OrderStatus != OrderStatus.Nuevo)
             {
-                _flashMessage.Danger("Solo se pueden despachar pedidos que estén en estado 'nuevo'.");
+                _flashMessage.Danger("Solo se pueden despachar pedidos que estén en estado 'Nuevo'.");
             }
             else
             {
                 sale.OrderStatus = OrderStatus.Despachado;
                 _context.Sales.Update(sale);
                 await _context.SaveChangesAsync();
-                _flashMessage.Confirmation("El estado del pedido ha sido cambiado a 'despachado'.");
+                _flashMessage.Confirmation("El estado del pedido ha sido cambiado a 'Despachado'.");
             }
 
             return RedirectToAction(nameof(Details), new { Id = sale.Id });
@@ -94,14 +94,14 @@ namespace GlampingITM.Controllers
 
             if (sale.OrderStatus != OrderStatus.Despachado)
             {
-                _flashMessage.Danger("Solo se pueden enviar pedidos que estén en estado 'despachado'.");
+                _flashMessage.Danger("Solo se pueden enviar pedidos que estén en estado 'Despachado'.");
             }
             else
             {
                 sale.OrderStatus = OrderStatus.Enviado;
                 _context.Sales.Update(sale);
                 await _context.SaveChangesAsync();
-                _flashMessage.Confirmation("El estado del pedido ha sido cambiado a 'enviado'.");
+                _flashMessage.Confirmation("El estado del pedido ha sido cambiado a 'Enviado'.");
             }
 
             return RedirectToAction(nameof(Details), new { Id = sale.Id });
@@ -122,14 +122,14 @@ namespace GlampingITM.Controllers
 
             if (sale.OrderStatus != OrderStatus.Enviado)
             {
-                _flashMessage.Danger("Solo se pueden confirmar pedidos que estén en estado 'enviado'.");
+                _flashMessage.Danger("Solo se pueden confirmar pedidos que estén en estado 'Enviado'.");
             }
             else
             {
                 sale.OrderStatus = OrderStatus.Confirmado;
                 _context.Sales.Update(sale);
                 await _context.SaveChangesAsync();
-                _flashMessage.Confirmation("El estado del pedido ha sido cambiado a 'confirmado'.");
+                _flashMessage.Confirmation("El estado del pedido ha sido cambiado a 'Confirmado'.");
             }
 
             return RedirectToAction(nameof(Details), new { Id = sale.Id });
@@ -149,12 +149,12 @@ namespace GlampingITM.Controllers
 
             if (sale.OrderStatus == OrderStatus.Cancelado)
             {
-                _flashMessage.Danger("No se puede cancelar un pedido que esté en estado 'cancelado'.");
+                _flashMessage.Danger("No se puede cancelar un pedido que esté en estado 'Cancelado'.");
             }
             else
             {
                 await _ordersHelper.CancelOrderAsync(sale.Id);
-                _flashMessage.Confirmation("El estado del pedido ha sido cambiado a 'cancelado'.");
+                _flashMessage.Confirmation("El estado del pedido ha sido cambiado a 'Cancelado'.");
             }
 
             return RedirectToAction(nameof(Details), new { Id = sale.Id });

@@ -7,19 +7,21 @@
 
 <div class="row">
     <div class="col-md-4  offset-md-4">
-        <div class="card bg-light mb-3" style="width: 450px; height: 450px">
-            <h5 class="card-header text-center"><i class="fa-solid fa-envelope text-navy"></i> Iniciar Sesión</h5>
+        <div class="card bg-light mb-3" style="width: 450px; height: 450px;box-shadow: -6px 14px 18px -3px rgba(0,0,0,0.67);
+-webkit-box-shadow: -6px 14px 18px -3px rgba(0,0,0,0.67);
+-moz-box-shadow: -6px 14px 18px -3px rgba(0,0,0,0.67); ">
+            <h5 class="card-header text-center"><i class="fa-solid fa-envelope text-navy"></i> Inicio de sesión</h5>
             <div class="card-body bg-ligth">
                 <form asp-action="Login">
                     <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
                     <div class="form-group">
                         <label asp-for="Username" class="control-label"></label>
-                        <input asp-for="Username" class="form-control" />
+                        <input asp-for="Username" placeholder="Escriba aquí su Email" class="form-control" />
                         <span asp-validation-for="Username" class="text-danger"></span>
                     </div>
                     <div class="form-group">
                         <label asp-for="Password" class="control-label"></label>
-                        <input asp-for="Password" type="password" class="form-control" />
+                        <input asp-for="Password" type="password" placeholder="Escriba aquí su contraseña" class="form-control" />
                         <span asp-validation-for="Password" class="text-danger"></span>
                     </div>
                     <div class="form-group mt-2">
@@ -31,12 +33,12 @@
                     </div>
                     <div class="form-group mt-2">
                         <button input type="submit" value="Login" class="btn btn-primary btn-block"><i class="fa-solid fa-user"></i> Iniciar Sesión</button>
-                        <a asp-action="Register" class="btn btn-secondary"><i class="fa-solid fa-circle-plus"></i> Registrar Nuevo Usuario</a>
+                        <a asp-action="Register" class="btn btn-secondary"><i class="fa-solid fa-circle-plus"></i> Registrarme</a>
                     </div>
                 </form>
             </div>
             <div class="card-footer bg-transparent text-center">
-                ¿Has olvidado tu contraseña?<a asp-action="RecoverPassword"> Recuperala</a>
+                ¿Olvidaste tu contraseña?   <a asp-action="RecoverPassword">Recupérala</a>
             </div>
         </div>
     </div>

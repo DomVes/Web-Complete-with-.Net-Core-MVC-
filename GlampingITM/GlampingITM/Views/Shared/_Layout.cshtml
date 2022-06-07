@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="~/lib/jqueryui/jquery-ui.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/GlampingITM.styles.css" asp-append-version="true" />
-    
+
 </head>
 <body class="background-pattern">
     <header>
@@ -33,7 +33,7 @@
                         {
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-ligth" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Administración</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
                                     <li><a class="dropdown-item" asp-area="" asp-controller="Dashboard" asp-action="Index"><i class="fa fa-tachometer-alt text-danger"></i> Dashboard</a></li>
                                     <li><hr class="dropdown-divider" /></li>
                                     <li><a class="dropdown-item" asp-area="" asp-controller="Categories" asp-action="Index"><i class="fa fa-list-1-2 text-danger"></i> Categorías</a></li>
@@ -66,11 +66,11 @@
                         {
                             <li class="nav-item">
                                 <a class="nav-link text-ligth" asp-area="" asp-controller="Account" asp-action="Login">Iniciar Sesión</a>
-                            </li>
+                            </li>                            
                         }
                     </ul>
                 </div>
-            </div>            
+            </div>
         </nav>
 
 
@@ -82,7 +82,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted" style="width:100%;position:fixed;bottom:0; background-color:black">
         <div class="container">
             &copy; 2022 - GlampingITM - <a asp-area="" asp-controller="Home" asp-action="Privacy">Politica de privacidad</a>
         </div>

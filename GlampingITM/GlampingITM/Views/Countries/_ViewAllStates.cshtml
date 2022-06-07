@@ -25,7 +25,7 @@
         {
         <tr>
             <td>
-                <a asp-action="DetailsState" asp-controller="Countries" asp-route-Id="@item.Id">@Html.DisplayFor(modelItem => item.Name)</a>
+                <a asp-action="DetailsState" class="btn btn-default" asp-controller="Countries" asp-route-Id="@item.Id">@Html.DisplayFor(modelItem => item.Name)</a>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CitiesNumber)

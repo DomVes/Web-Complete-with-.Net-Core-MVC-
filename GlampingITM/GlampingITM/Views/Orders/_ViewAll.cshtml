@@ -40,7 +40,7 @@
         {
         <tr>
             <td>
-                <a asp-action="Details" asp-controller="Orders" asp-route-Id="@item.Id">@Html.DisplayFor(modelItem => item.Date)</a>
+                <a asp-action="Details" class="btn btn-default"asp-controller="Orders" asp-route-Id="@item.Id">@Html.DisplayFor(modelItem => item.Date)</a>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.User.FullName)

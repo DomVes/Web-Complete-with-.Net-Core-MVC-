@@ -7,7 +7,7 @@
 <flash dismissable="true" />
 
 <!-- Content Wrapper. Contains page content -->
-<div class="container-fluid">
+<div class="container-fluid"style="background:rgba(252, 213, 213, .5); box-shadow: 5px 5px 15px 5px #000000;">
     <div class="card mt-2">
         <div class="card-header text-danger">
             <i class="fa fa-shopping-bag"></i>  <strong>Productos</strong>
@@ -20,21 +20,8 @@
     </div>
 </div>
 
-<!--modal placeholder. Also you can place this modal form in the _Layout.cshtml-->
-<div class="modal fade in" tabindex="-1" role="dialog" data-bs-backdrop="static" id="form-modal">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header bg-primary">
-                <h5 class="modal-title text-white"></h5>
-                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close">                   
-                </button>
-            </div>
-            <div class="modal-body">
-            </div>
-        </div>
-    </div>
-</div>
 
+<partial name="_AddOrEditDialog"/>
 <partial name="_DeleteDialog" />
 
 @section Scripts {
